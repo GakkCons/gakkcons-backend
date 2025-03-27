@@ -35,5 +35,5 @@ steps:
     depends_on: deploy
 
 when:
-  - branch: Main
+  - branch: master
     event: push
